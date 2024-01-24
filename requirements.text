@@ -1,8 +1,8 @@
-numpy 
-tensorflow
-keras
-matplotlib.pyplot
-opencv
-tqdm
+numpy==1.21.2
+tensorflow==2.6.0
+keras==2.6.0
+matplotlib==3.4.3
+opencv-python==4.5.3
+tqdm==4.62.3
 os
 re
