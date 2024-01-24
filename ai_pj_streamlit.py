@@ -4,7 +4,6 @@ import numpy as np
 import tensorflow as tf
 import keras
 import cv2
-import os
 import re
 import streamlit as st
 from PIL import Image
