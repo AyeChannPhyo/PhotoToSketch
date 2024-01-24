@@ -54,7 +54,7 @@ def choosing_size(x,upload_image):
     )
         
 small_model = tf.keras.models.load_model('size256.h5')
-large_model = tf.keras.models.load_model('AI Final Project/imageotsketchfinetest.h5')
+large_model = tf.keras.models.load_model('size512.h5')
 
 st.write("Our application has some limitations: it works better on portrait face images with clear background.")
 
