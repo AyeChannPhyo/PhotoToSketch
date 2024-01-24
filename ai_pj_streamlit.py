@@ -1,7 +1,7 @@
 #Import Libraries
 
 import numpy as np
-# import tensorflow as tf
+import tensorflow as tf
 import keras
 from keras.layers import Dense, Conv2D, MaxPool2D, UpSampling2D, Dropout, Input
 from keras.preprocessing.image import img_to_array
