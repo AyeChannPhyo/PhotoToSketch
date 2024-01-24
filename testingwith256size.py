@@ -102,15 +102,15 @@ for i in tqdm(sketch_file):
     # horizontal flip
     img1 = cv2.flip(image,1)
     sketch_array.append(img_to_array(img1))
-     #vertical flip
+    # vertical flip
     img2 = cv2.flip(image,-1)
     sketch_array.append(img_to_array(img2))
-     vertical flip
+    # vertical flip
     img3 = cv2.flip(image,-1)
     # horizontal flip
     img3 = cv2.flip(img3,1)
     sketch_array.append(img_to_array(img3))
-    rotate clockwise
+    # rotate clockwise
     img4 = cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)
     sketch_array.append(img_to_array(img4))
     # flip rotated image
