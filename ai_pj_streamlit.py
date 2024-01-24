@@ -3,7 +3,6 @@
 import numpy as np
 import tensorflow as tf
 import keras
-from keras.preprocessing.image import img_to_array
 import cv2
 import os
 import re
