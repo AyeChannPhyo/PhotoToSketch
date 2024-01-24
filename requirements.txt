@@ -1,8 +1,6 @@
+opencv-python-headless
 tensorflow
 numpy
 keras
 matplotlib
-opencv-python
 tqdm
-os
-re
